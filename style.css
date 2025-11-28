@@ -1,0 +1,68 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: Arial , sans-serif;
+ background-color: white;
+}
+.hyy{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow:3px -1px 39px -12px rgba(20, 13, 13, 0.88);
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding : 10px 80px 24px 80px;
+    
+    
+}
+.logo img{
+    width: 10%;
+    /* margin-left: 110px; */
+    height: auto;
+}
+.nike{
+   font-size: 25px;
+   font-weight: bold;
+   color: orange;
+   gap:none;
+}
+.react{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    gap: none;
+}
+ .yup{  
+    gap: 30px;
+    display: flex;
+    padding: 17px 36px 0px px;
+    margin-left: 10px;
+    justify-content: space-around;
+    list-style: none;/
+   
+} 
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 17px 36px 0px 0px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: black;
+    text-align: right;
+    
+}
