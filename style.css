@@ -119,8 +119,9 @@ header{
     border-radius: 5px;
     font-weight: 540;
     font-size: 15px;
-    width: 21%;
+    width: 30%;
 }
+
 @font-face {
     font-family: BebasNeue;
     src: url("./fonts/BebasNeue-Regular.ttf");
@@ -210,14 +211,201 @@ header{
     border-radius: 5px;
     font-weight: 400;
 }
+.content4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #E5E5E5;
+    padding-top: 70px;
+}
+.fit{
+    width: 40%;
+}
+.fit img{
+    width: 100%;
+    margin-left: 20px;
+}
+.firstcart{
+    display: flex;
+    background-color: white;
+    padding: 20px 20px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    border-radius: 10px;
+    width: 600px;
+}
+.firstcart div{
+    width: 20%;
+}
+.firstcart div img{
+    width: 100%;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Roboto;
+}
+#mcontent{
+    width: 50%;
+}
+.maincontent div{
+    width: 100%;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.subscribe{
+     background-color: #E5E5E5;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+     padding-bottom: 20px;
+
+}
+
+.type{
+     outline: none;
+     border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width:80%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content6{
+    width: 85%;
+}
+.text{
+    /* width: 50%; */
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 0px 10px 5px;
+}
+.content6 button{
+ background-color: #3D4FF3;
+    padding: 10px;
+    padding-bottom: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    position: relative;
+    left: 923px;
+    bottom: 44.5px;
+    width: 10%;
+    border-radius: 3px;
+    line-height:24px;
+    margin-bottom:0.7px;
+    margin-left:-1px;
+    margin-right:0px;
+    margin-top:0px;
+    font-size:17px ;
+}
+.div4 h1{
+     text-transform: uppercase;
+     color:rgb(54, 57, 88);
+     display:block;
+     font-family:Roboto;
+     font-size: 28px;
+     font-weight: 500;
+     line-height: 28.8px;
+     margin:16px 0px 8px 0px; 
+}
+.type button:hover{
+    background-color: #198754;
+    transition: 0.5s;
+}
+.content5{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     padding: 50px 0px 30px 0px; 
+     gap: 20px;
+}
+#hello{
+    display: flex;
+    justify-content: center;
+}
+.almost{
+    width: 100%;
+    /* background-color: #3D4FF3; */
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+     gap: 30px;
+
+}
+.heades{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.heades ul li{
+    color: #212529 !important;
+    list-style: none;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 3500;
+}
+.content5 h5{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 1000;
+    color: #363958;
+    text-transform: uppercase;
+    font-weight: 750;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.end h4{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Roboto;
+}
+.end h4 span{
+    color: #ff8367;
+}
+
+
+
+
+
 @media screen and (max-width:480px){
+
     .navlinks{
         display: none;
     }
     .bar{
      margin-right: 20px;
      border: 1px solid rgba(0, 0, 0, .55);
-     border-radius: 3px;
+     border-radius: 0;
     }
     .bars{
         display: block;
@@ -295,7 +483,75 @@ header{
     .money button{
         margin-left: 70px;
     }
+    .content4{
+        flex-direction: column;
+    }
+    .carts{
+        padding: 0px 15px;
+    }
+    .firstcart p{
+        font-size: 15px;
+        gap: 30px;
+    }
+    #mcontent{
+        width: 63%;
+    }
+    .fit{
+        order: -1;
+        width: 90%;
+    }
+    .fit img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .type{
+        height: 220px;
+        width: 90%;
+    }
+    .type h1{
+        font-size: 24px;
+    }
+    .content6{
+        display: flex;
+    }
+    .content6 .text{
+        width:100%;
+    }
+    .content6 button{
+        position: static;
+        left: 0px;
+        bottom: 0px;
+        width: 25%;
+        font-size: 13px;
+        padding: 9px;
+        padding-bottom: 10px;
+    }
+    .almost{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .heades{
+        width: 50%;
+        align-items: center;
+    }
+    .heades ul li{
+        padding-left: 20px;
+        justify-content: center;
+    }
+    .content5{
+        padding-top: 30px;
+    }
+    .content5 h6{
+        font-size: 20px;
+    }
+    .heades h5{
+    font-size: 25px;
+ }
 }
+
+
 @media screen and (min-width:481px) and (max-width:768px) {
     .navlinks{
         display: none;
@@ -303,7 +559,7 @@ header{
     .bar{
      border-radius: 3px;
      border: 1px solid rgba(0, 0, 0, .55);
-     margin-right: 140px;
+     margin-right: 80px;
     }
     .bars{
         display: block;
@@ -313,7 +569,7 @@ header{
         /* margin: 2px; */
         color: rgba(0, 0, 0, .55);
     }
-    .header{
+    header{
         width: 100%;
     }
     .navbar{
@@ -389,6 +645,40 @@ header{
     .money button{
         margin-left: 70px;
     }
+     .shoebtn{
+        padding: 0px;
+    }
+    .content4{
+        padding-top: 60px;
+        gap: 15px;
+    }
+    .carts{
+        padding-right: 5px;
+    }
+    .firstcart{
+        padding-left:3px ;
+        padding-right: 2px;
+        margin-left: 15px;
+    }
+
+    .fit img{
+        width: 100%;
+    margin-left: 0px;
+    }
+    .content6{
+        display: flex;
+    }
+    .text{
+        width: 80%;
+    }
+    .type button{
+        position: static;
+        left: 0px;
+        bottom: 0px;
+        width: 20%;
+        padding: 10px;
+        font-size:13px ;
+    }
 }
 @media screen and (min-width:769px) and (max-width:1280px){
     header{
@@ -436,18 +726,34 @@ header{
     }
     .money button{
          margin-top: 0px;
-     position: relative;
+     position: static;
      right: 95px;
       gap: 0px;
       width: 100%;
       padding: 4px;
       font-size: 11px;
+      margin-left: 0px;
+      margin-top: 0px;
     }
     .shoebtn{
         position: relative;
         top: 25px;
+
     }
     .heading{
         padding-left: 50px;
+    }
+    .content6{
+        display: flex;
+    }
+    .content6 button{
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 5px;
+    width: 20%;
+    }
+    .text{
+        width: 80%;
     }
 }
